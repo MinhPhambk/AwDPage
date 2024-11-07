@@ -11,11 +11,35 @@
     width: 50%;
     max-width: 100%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* khoảng cách giữa các ảnh */
 }
-.about-image1 {
-    width: 80%;
+
+.about-image1,
+.about-image2,
+.about-image3 {
+    width: 40%;
     height: auto;
 }
+
+/* Thêm class để tạo hiệu ứng so le */
+.about-image1 {
+    align-self: flex-start;
+}
+
+.about-image2 {
+    align-self: center;
+}
+
+.about-image3 {
+    align-self: flex-end;
+}
+
+
+
+
 /* Text */
 .about-text-content {
     width: 50%;

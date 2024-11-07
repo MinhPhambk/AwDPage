@@ -31,7 +31,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          Awake Drive <span className="navbar-sign"></span>
         </Link>
       </h1>
 
@@ -39,27 +39,27 @@ function Navbar() {
       <ul className="navbar-items">
         <li>
           <Link to="/" className="navbar-links">
-            Home
+            Trang chủ
           </Link>
         </li>
         <li>
           <a href="#services" className="navbar-links">
-            Services
+            Sản phẩm và Dịch vụ
           </a>
         </li>
         <li>
           <a href="#about" className="navbar-links">
-            About
+            Giới thiệu 
           </a>
         </li>
         <li>
           <a href="#reviews" className="navbar-links">
-            Reviews
+            Đánh giá
           </a>
         </li>
         <li>
           <a href="#doctors" className="navbar-links">
-            Doctors
+            Đội ngũ
           </a>
         </li>
       </ul>
@@ -70,7 +70,7 @@ function Navbar() {
         disabled={isButtonDisabled}
         onClick={handleChatBtnClick}
       >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
+        <FontAwesomeIcon icon={faCommentDots} /> Liên hệ ngay
       </button>
 
       {/* Mobile */}

@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/AwDPage/static/css/main.c282a9d6.css",
-    "main.js": "/AwDPage/static/js/main.ddbc8024.js",
-    "static/media/profile-2.png": "/AwDPage/static/media/profile-2.4752a9db34458eeffcfa.png",
-    "static/media/doctor-picture.png": "/AwDPage/static/media/doctor-picture.0261bb4efe7a9075c56a.png",
-    "static/media/profile-1.png": "/AwDPage/static/media/profile-1.0261bb4efe7a9075c56a.png",
-    "static/media/doctor-group.png": "/AwDPage/static/media/doctor-group.01394386d8270bd40bc1.png",
-    "static/media/profile-3.png": "/AwDPage/static/media/profile-3.530bb2fd7ece3dd3b3be.png",
+    "main.css": "/AwDPage/static/css/main.2103d68d.css",
+    "main.js": "/AwDPage/static/js/main.567f9e59.js",
+    "static/media/sangtaotre.png": "/AwDPage/static/media/sangtaotre.8b37d2f4d4a65fb8828f.png",
+    "static/media/SCIC.png": "/AwDPage/static/media/SCIC.d26f6d25535910b2203b.png",
+    "static/media/NguyenTuanDat.png": "/AwDPage/static/media/NguyenTuanDat.6e02c93827eb6defb851.png",
+    "static/media/home.jpg": "/AwDPage/static/media/home.daace495dfed4977274c.jpg",
+    "static/media/Trang.jpg": "/AwDPage/static/media/Trang.c47bee9de1fd525eae2b.jpg",
     "static/media/doctor-book-appointment.png": "/AwDPage/static/media/doctor-book-appointment.edb3f4ac282ff3fefaec.png",
+    "static/media/khoinghieptre.png": "/AwDPage/static/media/khoinghieptre.169aa538d5d1aad8ca3a.png",
     "static/media/profile-4.png": "/AwDPage/static/media/profile-4.3c44185ab9c84614038f.png",
     "index.html": "/AwDPage/index.html",
-    "main.c282a9d6.css.map": "/AwDPage/static/css/main.c282a9d6.css.map",
-    "main.ddbc8024.js.map": "/AwDPage/static/js/main.ddbc8024.js.map"
+    "main.2103d68d.css.map": "/AwDPage/static/css/main.2103d68d.css.map",
+    "main.567f9e59.js.map": "/AwDPage/static/js/main.567f9e59.js.map"
   },
   "entrypoints": [
-    "static/css/main.c282a9d6.css",
-    "static/js/main.ddbc8024.js"
+    "static/css/main.2103d68d.css",
+    "static/js/main.567f9e59.js"
   ]
 }

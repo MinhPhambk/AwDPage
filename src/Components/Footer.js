@@ -10,85 +10,24 @@ function Footer() {
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+              Awake Drive <span className="ft-sign"></span>
             </p>
-            <p className="ft-description">
+            {/* <p className="ft-description">
               Talk to online doctors and get medical advice, online
               prescriptions, refills and medical notes within minutes. On-demand
               healthcare services at your fingertips.
-            </p>
+            </p> */}
           </div>
 
           <SubscribeNewsletter />
         </div>
 
         <div className="ft-list">
-          <p className="ft-list-title">Services</p>
+          <p className="ft-list-title">Thông tin liên hệ</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#services">Emergency Care</a>
-            </li>
-            <li>
-              <a href="#services">Heart Disease</a>
-            </li>
-            <li>
-              <a href="#services">Dental Care</a>
-            </li>
-            <li>
-              <a href="#services">Prescription</a>
-            </li>
-            <li>
-              <a href="#services">Insights for doctors</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="ft-list">
-          <p className="ft-list-title">Legal</p>
-          <ul className="ft-list-items">
-            <li>
-              <Link to={"/legal"}>General Info</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Privacy Policy</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Terms of Services</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Consultations</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>How it Works</Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className="ft-list" id="contact">
-          <p className="ft-list-title">Talk To Us</p>
-          <ul className="ft-list-items">
-            <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
-            </li>
-            <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
-              </a>
-            </li>
-            <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
-            </li>
-            <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
-
-        <ul className="ft-social-links">
+              <a href="#services">Social Media</a>
+              <ul className="ft-social-links">
           <li>
             <a
               href="https://linkedin.com/in/Alkaison/"
@@ -108,7 +47,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/neuralofthings"
               title="FaceBook"
               target="_blank"
               rel="noopener noreferrer"
@@ -140,6 +79,61 @@ function Footer() {
             </a>
           </li>
         </ul>
+            </li>
+            <li>
+              <a href="#services">FAQs</a>
+            </li>
+            
+            
+          </ul>
+        </div>
+
+        <div className="ft-list">
+          <p className="ft-list-title">Legal</p>
+          <ul className="ft-list-items">
+            <li>
+              <Link to={"/legal"}>General Info</Link>
+            </li>
+            <li>
+              <Link to={"/legal"}>Privacy Policy</Link>
+            </li>
+            <li>
+              <Link to={"/legal"}>Terms of Services</Link>
+            </li>
+            <li>
+              <Link to={"/legal"}>Consultations</Link>
+            </li>
+            <li>
+              <Link to={"/legal"}>How it Works</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="ft-list" id="contact">
+          <p className="ft-list-title">Trò chuyện với chúng tôi</p>
+          <ul className="ft-list-items">
+            <li>
+              <a href="mailto:support@healthplus.com">#email a Lực</a>
+            </li>
+            <li>
+              <a href="mailto:appointment@healthplus.com">
+                appointment@healthplus.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+022 5454 5252">+022 5454 5252</a>
+            </li>
+            <li>
+              <a href="tel:+022 2326 6232">+022 2326 6232</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="ft-copyright">
+        <p>© 2024 Awake Drive. All rights reserved.</p>
+
+        
       </div>
     </div>
   );

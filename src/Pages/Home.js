@@ -15,9 +15,10 @@ function Home() {
       <Hero />
       <Info />
       <About />
-      <BookAppointment />
+      {/* <BookAppointment /> */}
       <Reviews />
       <Doctors />
+      
       <Footer />
     </div>
   );

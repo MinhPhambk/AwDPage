@@ -22,27 +22,27 @@ function AppointmentForm() {
     // Validate form inputs
     const errors = {};
     if (!patientName.trim()) {
-      errors.patientName = "Patient name is required";
+      errors.patientName = "Name is required";
     } else if (patientName.trim().length < 8) {
-      errors.patientName = "Patient name must be at least 8 characters";
+      errors.patientName = "Name must be at least 8 characters";
     }
 
     if (!patientNumber.trim()) {
-      errors.patientNumber = "Patient phone number is required";
+      errors.patientNumber = "Phone number is required";
     } else if (patientNumber.trim().length !== 10) {
-      errors.patientNumber = "Patient phone number must be of 10 digits";
+      errors.patientNumber = "Phone number must be of 10 digits";
     }
 
     if (patientGender === "default") {
-      errors.patientGender = "Please select patient gender";
+      errors.patientGender = "Please select gender";
     }
     if (!appointmentTime) {
-      errors.appointmentTime = "Appointment time is required";
+      errors.appointmentTime = "Receive time is required";
     } else {
       const selectedTime = new Date(appointmentTime).getTime();
       const currentTime = new Date().getTime();
       if (selectedTime <= currentTime) {
-        errors.appointmentTime = "Please select a future appointment time";
+        errors.appointmentTime = "Please select a receve time";
       }
     }
     if (preferredMode === "default") {
@@ -73,18 +73,18 @@ function AppointmentForm() {
     <div className="appointment-form-section">
       <h1 className="legal-siteTitle">
         <Link to="/">
-          Health <span className="legal-siteSign">+</span>
+          AwakeDrive
         </Link>
       </h1>
 
       <div className="form-container">
         <h2 className="form-title">
-          <span>Book Appointment Online</span>
+          <span>Talk with us</span>
         </h2>
 
         <form className="form-content" onSubmit={handleSubmit}>
           <label>
-            Patient Full Name:
+            Full Name:
             <input
               type="text"
               value={patientName}
@@ -96,7 +96,7 @@ function AppointmentForm() {
 
           <br />
           <label>
-            Patient Phone Number:
+            Phone Number:
             <input
               type="text"
               value={patientNumber}
@@ -108,7 +108,7 @@ function AppointmentForm() {
 
           <br />
           <label>
-            Patient Gender:
+            Gender:
             <select
               value={patientGender}
               onChange={(e) => setPatientGender(e.target.value)}
@@ -124,7 +124,7 @@ function AppointmentForm() {
 
           <br />
           <label>
-            Preferred Appointment Time:
+            Preferred Meeting Time:
             <input
               type="datetime-local"
               value={appointmentTime}
@@ -151,7 +151,7 @@ function AppointmentForm() {
 
           <br />
           <button type="submit" className="text-appointment-btn">
-            Confirm Appointment
+            Confirm 
           </button>
 
           <p className="success-message" style={{display: isSubmitted ? "block" : "none"}}>Appointment details has been sent to the patients phone number via SMS.</p>
@@ -159,7 +159,7 @@ function AppointmentForm() {
       </div>
 
       <div className="legal-footer">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2024 AwakeDrive. All rights reserved.</p>
       </div>
 
       <ToastContainer autoClose={5000} limit={1} closeButton={false} />

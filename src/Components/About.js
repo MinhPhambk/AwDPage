@@ -2,6 +2,8 @@ import React from "react";
 import award1 from "../Assets/khoinghieptre.png";
 import award2 from "../Assets/sangtaotre.png";
 import award3 from "../Assets/SCIC.png";
+import doitac1 from "../Assets/BKFund.png";
+import doitac2 from "../Assets/entre.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -20,9 +22,12 @@ function About() {
           </span>
         </h3>
         <p className="about-description">
-        Tầm nhìn: “Mang lại hành trình an toàn và tỉnh táo cho mọi tài xế.”
+            <strong>Tầm nhìn:</strong> “Mang lại hành trình an toàn và tỉnh táo cho mọi tài xế”
         </p>
-        <p className ="about-description">Sứ mệnh: "Giảm tai nan giao thông qua công nghệ sáng tạo."</p>
+        <p className="about-description">
+            <strong>Sứ mệnh:</strong> "Giảm tai nạn giao thông qua công nghệ sáng tạo"
+        </p>
+
 
         <h3 className="about-title">
           <span>Giải thưởng & thành tựu
@@ -52,26 +57,26 @@ function About() {
         </p>
         
 
-        <h3 className="about-title">
-          <span>Đối tác
-          </span>
-        </h3>
 
-        <p class="about-description">
-        <SolutionStep
-          title="BK Funds"
-        />
-        </p>
 
-        <p class="about-description">
-        <SolutionStep
-          title="Vin Elab"
-        />
-        </p>
+            <h3 className="about-title"><span>Đối tác</span></h3>
+            
+            <div className="partners-list">
+                <div className="partner-item">
+                    <img src={doitac1} alt="BK Fund" className="partner-logo" />
+                    <p className="partner-name">BK Fund</p>
+                </div>
+                
+                <div className="partner-item">
+                    <img src={doitac2} alt="Vin ELab" className="partner-logo" />
+                    <p className="partner-name">Vin ELab</p>
+                </div>
+            </div>
+        </div>
 
 
       </div>
-    </div>
+
   );
 }
 

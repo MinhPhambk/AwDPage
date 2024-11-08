@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .about-section {
     padding: 32px;
     display: flex;
@@ -37,6 +39,20 @@
     align-self: flex-end;
 }
 
+.about-doitac1,
+.about-doitac2{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.about-doitac1 {
+    align-self: flex-start;
+}
+
+.about-doitac2 {
+    align-self: flex-end;
+}
 
 
 
@@ -45,7 +61,7 @@
     width: 50%;
 }
 .about-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
@@ -65,15 +81,70 @@
 .about-description {
     margin: 32px 0;
     color: #4d4b4b;
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: bold;
     letter-spacing: .7px;
     line-height: 1.7rem;
+    display: center;
 }
+
+.partners-section {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4b4b;
+}
+
+.partners-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-decoration: underline;
+}
+
+.partners-list {
+    display: flex;
+    justify-content: center; /* Căn giữa mục "Đối tác" */
+    gap: 40px; /* Khoảng cách giữa các đối tác */
+}
+
+.partner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Đặt kích thước cố định cho item */
+}
+
+.partner-logo {
+    width: 100px; /* Đặt kích thước logo bằng nhau */
+    height: 100px;
+    object-fit: contain; /* Đảm bảo hình ảnh không bị méo */
+    margin-bottom: 8px;
+}
+
+.partner-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.about-doitac {
+    margin: 32px 0;
+    color: #4d4b4b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: .7px;
+    line-height: 1.7rem;
+    display: center;
+}
+
 .about-text-title {
     margin: 0 0 24px 0;
     color: #4d4b4b;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: .7px;
@@ -83,7 +154,7 @@
     margin: 16px 0;
 }
 .about-text-sTitle {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: .7px;
@@ -91,7 +162,7 @@
 .about-text-description {
     margin: 8px 24px;
     color: #4d4b4b;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: .7px;
     line-height: 1.6rem;
 }

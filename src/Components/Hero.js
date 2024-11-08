@@ -47,27 +47,24 @@ function Hero() {
           </p>
           <button
             className="text-appointment-btn"
-            type="button"
-            onClick={handleBookAppointmentClick} //Book Appointment 
+            onClick={() => window.location.href = "https://www.facebook.com/neuralofthings"}
           >
             <FontAwesomeIcon icon={faCalendarCheck} /> Tìm hiểu thêm
           </button>
+
           
           <div className="text-stats">
             <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
+              <p>5+</p>
+              <p>Số giải thưởng</p>
             </div>
 
             <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
+              <p>30+</p>
+              <p>Người thử nghiệm</p>
             </div>
 
-            <div className="text-stats-container">
-              <p>10+</p>
-              <p>Years of Experience</p>
-            </div>
+            
           </div>
         </div>
 

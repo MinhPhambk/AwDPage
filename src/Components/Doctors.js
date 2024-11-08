@@ -1,10 +1,14 @@
 import React from "react";
 import DoctorCard from "./DoctorCard";
-import profile1 from "../Assets/TranVanLuc.jpg";
+import profile1 from "../Assets/TranVanLuc.png";
 import profile2 from "../Assets/NguyenTuanDat.png";
-import profile3 from "../Assets/Trang.jpg";
-
-import profile4 from "../Assets/profile-4.png";
+import profile3 from "../Assets/Trang.png";
+import profile4 from "../Assets/PhamNgocMinh.png";
+import profile5 from "../Assets/Yen.png";
+import profile6 from "../Assets/Minh.png";
+import profile7 from "../Assets/Thanh.png";
+import profile8 from "../Assets/Quyen.png";
+import profile9 from "../Assets/Chau.jpg";
 import "../Styles/Doctors.css";
 
 function Doctors() {
@@ -26,37 +30,55 @@ function Doctors() {
           img={profile1}
           name="Trần Văn Lực "
           title="CEO"
-          school = "Đại học Bách Khoa Hà Nội"
+          school = "Khoa học Máy tính - HUST"
         />
         <DoctorCard
           img={profile2}
           name="Nguyễn Tuấn Đạt"
           title="CTO"
-          school = "Đại học Bách Khoa Hà Nội"
+          school = "Công nghệ thông tin Việt-Nhật - HUST"
         />
         <DoctorCard
           img={profile4}
           name="Phạm Ngọc Minh"
-          title="siêu nhân"
-          school = "Đại học Bách Khoa Hà Nội"
+          title="Develop"
+          school = "Khoa học Máy tính - HUST"
         />
         <DoctorCard
           img={profile3}
           name="Nguyễn Thùy Trang"
-          title="đầu sỏ kinh tế"
-          school = "Đại học Ngoại Thương"
+          title="Kinh tế"
+          school = "Quản trị kinh doanh- FTU"
         />
         <DoctorCard
-          img={profile4}
+          img={profile5}
           name="Nguyễn Ngọc Yến"
-          title = "đầu sỏ kinh tế"
-          school ="Vins University"
+          title = "Kinh tế"
+          school ="Quản trị kinh doanh- VinUni"
         />
         <DoctorCard
-          img={profile4}
-          name="Nguyễn Đình Nhật Minh"
-          title="siêu nhân bt rap"
-          school="Đại học Bách Khoa Hà Nội"
+          img={profile6}
+          name="Nguyễn Đình Minh Nhật"
+          title="Tài chính"
+          school="Quản trị kinh doanh - VinUni"
+        />
+        <DoctorCard
+          img={profile7}
+          name="Nguyễn Trí Thanh"
+          title="R&D"
+          school="Khoa học Dữ liệu và Trí tuệ Nhân tạo - HUST"
+        />
+        <DoctorCard
+          img={profile8}
+          name="Phan Hà Quyên"
+          title="R&D"
+          school="Kỹ thuật Máy tính - Hust"
+        />
+        <DoctorCard
+          img={profile9}
+          name="Phạm Hoàng Minh Châu"
+          title="R&D"
+          school="Công nghệ thông tin Việt-Nhật - Hust"
         />
       </div>
     </div>

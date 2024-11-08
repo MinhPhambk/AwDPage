@@ -38,7 +38,7 @@ function Hero() {
         <div className="text-section">
           <p className="text-headline"></p>
           <h2 className="text-title">
-          Awake Drive - Vững bước đường dài
+          Awake Drive - Vững bước trên đường dài
           </h2>
           <p className="text-descritpion">
           Giúp tài xế tỉnh táo, giảm tai nạn giao thông và nâng cao an toàn đường bộ

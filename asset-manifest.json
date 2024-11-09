@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AwDPage/static/css/main.a5aa6d37.css",
-    "main.js": "/AwDPage/static/js/main.1bafa6c4.js",
+    "main.css": "/AwDPage/static/css/main.3704b53a.css",
+    "main.js": "/AwDPage/static/js/main.5226fbd7.js",
     "static/media/sangtaotre.png": "/AwDPage/static/media/sangtaotre.8b37d2f4d4a65fb8828f.png",
     "static/media/Thanh.png": "/AwDPage/static/media/Thanh.f4b2e82e757afd77e068.png",
     "static/media/SCIC.png": "/AwDPage/static/media/SCIC.d26f6d25535910b2203b.png",
@@ -17,14 +17,14 @@
     "static/media/khoinghieptre.png": "/AwDPage/static/media/khoinghieptre.169aa538d5d1aad8ca3a.png",
     "static/media/BKFund.png": "/AwDPage/static/media/BKFund.76fd1dd86ccec346ab91.png",
     "static/media/logo.png": "/AwDPage/static/media/logo.bb307004490b9d6082ca.png",
-    "static/media/Chau.jpg": "/AwDPage/static/media/Chau.27a38b48f1f25b688660.jpg",
+    "static/media/Chau.jpg": "/AwDPage/static/media/Chau.3b53a0679362abab69c9.jpg",
     "static/media/entre.png": "/AwDPage/static/media/entre.6959d53ed5a9e0557941.png",
     "index.html": "/AwDPage/index.html",
-    "main.a5aa6d37.css.map": "/AwDPage/static/css/main.a5aa6d37.css.map",
-    "main.1bafa6c4.js.map": "/AwDPage/static/js/main.1bafa6c4.js.map"
+    "main.3704b53a.css.map": "/AwDPage/static/css/main.3704b53a.css.map",
+    "main.5226fbd7.js.map": "/AwDPage/static/js/main.5226fbd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5aa6d37.css",
-    "static/js/main.1bafa6c4.js"
+    "static/css/main.3704b53a.css",
+    "static/js/main.5226fbd7.js"
   ]
 }

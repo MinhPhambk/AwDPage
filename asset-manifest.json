@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/AwDPage/static/css/main.2103d68d.css",
-    "main.js": "/AwDPage/static/js/main.567f9e59.js",
+    "main.css": "/AwDPage/static/css/main.a5aa6d37.css",
+    "main.js": "/AwDPage/static/js/main.1bafa6c4.js",
     "static/media/sangtaotre.png": "/AwDPage/static/media/sangtaotre.8b37d2f4d4a65fb8828f.png",
+    "static/media/Thanh.png": "/AwDPage/static/media/Thanh.f4b2e82e757afd77e068.png",
     "static/media/SCIC.png": "/AwDPage/static/media/SCIC.d26f6d25535910b2203b.png",
-    "static/media/NguyenTuanDat.png": "/AwDPage/static/media/NguyenTuanDat.6e02c93827eb6defb851.png",
+    "static/media/Quyen.png": "/AwDPage/static/media/Quyen.6115394937ad107a7404.png",
+    "static/media/Trang.png": "/AwDPage/static/media/Trang.f7d8146b16937d14f0da.png",
+    "static/media/Yen.png": "/AwDPage/static/media/Yen.9e576b1486e452d8faff.png",
     "static/media/home.jpg": "/AwDPage/static/media/home.daace495dfed4977274c.jpg",
-    "static/media/Trang.jpg": "/AwDPage/static/media/Trang.c47bee9de1fd525eae2b.jpg",
+    "static/media/NguyenTuanDat.png": "/AwDPage/static/media/NguyenTuanDat.69634afe18c44eddf8e8.png",
+    "static/media/Minh.png": "/AwDPage/static/media/Minh.cc8762366ff4004b9e7e.png",
+    "static/media/PhamNgocMinh.png": "/AwDPage/static/media/PhamNgocMinh.134b812c0712574fedb9.png",
     "static/media/doctor-book-appointment.png": "/AwDPage/static/media/doctor-book-appointment.edb3f4ac282ff3fefaec.png",
+    "static/media/TranVanLuc.png": "/AwDPage/static/media/TranVanLuc.c3aed9d8e45aeeba2a1b.png",
     "static/media/khoinghieptre.png": "/AwDPage/static/media/khoinghieptre.169aa538d5d1aad8ca3a.png",
-    "static/media/profile-4.png": "/AwDPage/static/media/profile-4.3c44185ab9c84614038f.png",
+    "static/media/BKFund.png": "/AwDPage/static/media/BKFund.76fd1dd86ccec346ab91.png",
+    "static/media/logo.png": "/AwDPage/static/media/logo.bb307004490b9d6082ca.png",
+    "static/media/Chau.jpg": "/AwDPage/static/media/Chau.27a38b48f1f25b688660.jpg",
+    "static/media/entre.png": "/AwDPage/static/media/entre.6959d53ed5a9e0557941.png",
     "index.html": "/AwDPage/index.html",
-    "main.2103d68d.css.map": "/AwDPage/static/css/main.2103d68d.css.map",
-    "main.567f9e59.js.map": "/AwDPage/static/js/main.567f9e59.js.map"
+    "main.a5aa6d37.css.map": "/AwDPage/static/css/main.a5aa6d37.css.map",
+    "main.1bafa6c4.js.map": "/AwDPage/static/js/main.1bafa6c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2103d68d.css",
-    "static/js/main.567f9e59.js"
+    "static/css/main.a5aa6d37.css",
+    "static/js/main.1bafa6c4.js"
   ]
 }

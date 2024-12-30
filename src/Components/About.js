@@ -69,7 +69,7 @@ function About() {
                 
                 <div className="partner-item">
                     <img src={doitac2} alt="Vin ELab" className="partner-logo" />
-                    <p className="partner-name">Vin ELab</p>
+                    <p className="partner-name">Trung tâm ST&KNSV - HUST</p>
                 </div>
             </div>
         </div>
